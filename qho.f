@@ -23,7 +23,7 @@
         integer :: n, f
 
         ! Ref: Bernath Spectr. Atom. Mol. P.215
-        ! |Psi_n(x)=(2^n*n!)^(-1/2)\sqrt[4]{\alpha/\pi}
+        ! \Psi_n(x)=(2^n*n!)^(-1/2)\sqrt[4]{\alpha/\pi}
         ! \times e^{-\alpha*x^2/2}*H_n(\sqrt{\alpha}x)
         ! where \alpha=\mu\omega/\hbar
         call hermitepoly(n,alpha**0.5d0*x,psi)
